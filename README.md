@@ -6,6 +6,7 @@
 Developed an end-to-end Payroll & HRIS Integration simulation project using PeopleSoft HR, TimeFiler, PayGlobal and Tableau.
 
 The project processed 18,810 attendance transactions across 200 employees, performed payroll validation and exception handling, generated payroll-ready outputs for PayGlobal migration, and delivered management reporting dashboards to support payroll decision-making.
+The project also demonstrates how payroll reporting and validation outputs can support payroll managers and HR stakeholders in identifying payroll risks, monitoring payroll readiness, and supporting data-driven decision-making.
 
 ## Dashboard
 
@@ -20,15 +21,13 @@ The project demonstrates payroll data cleansing, validation, exception handling,
 
 ---
 
+
 ## Business Scenario
 
-A large organisation is consolidating multiple entities into a centralised payroll platform.
+A large organisation is integrating multiple entities into a centralised PayGlobal payroll environment.
 
-Employee information is maintained within PeopleSoft HR, while attendance transactions are captured through TimeFiler time and attendance systems.
+Employee data originates from PeopleSoft HR, while attendance transactions are captured through TimeFiler. The project focuses on validating, transforming, and preparing payroll data for migration while ensuring payroll accuracy and reporting readiness.
 
-Before payroll processing can occur, employee records, attendance transactions, payroll calculations, and migration outputs must be validated to ensure payroll accuracy, data quality, and successful payroll system implementation.
-
-This project simulates the end-to-end payroll integration process, including data validation, attendance processing, payroll readiness assessment, payroll testing, payroll reporting, and PayGlobal migration preparation.
 
 ---
 
@@ -83,7 +82,7 @@ K --> L[Payroll Dashboard Reporting]
 
 ### Payroll Integration and Migration
 
-* Simulated PeopleSoft HR and TimeFiler data integration.
+* Integrated and reconciled employee and attendance datasets originating from PeopleSoft HR and TimeFiler.
 * Prepared payroll-ready datasets for migration into PayGlobal.
 * Generated payroll load files for payroll system import.
 * Supported payroll testing and validation processes before payroll migration.
@@ -95,11 +94,6 @@ K --> L[Payroll Dashboard Reporting]
 * Produced payroll reporting datasets for management reporting.
 * Developed Tableau dashboards to support payroll decision-making and workforce reporting.
 
----
-
-## Dashboard
-
-(Add Tableau Dashboard Screenshot Here)
 
 ---
 
@@ -152,7 +146,7 @@ K --> L[Payroll Dashboard Reporting]
 - Data Quality Analysis
 - Tableau Dashboard Development
 - Stakeholder Reporting and Communication
-- Process Documentation and SOP Development
+- Process Documentation
 - End-to-End Payroll Process Understanding
 ```
 ```
