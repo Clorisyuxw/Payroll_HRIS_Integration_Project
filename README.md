@@ -35,36 +35,34 @@ This project simulates the end-to-end payroll integration process, including dat
 
 ---
 
-## Project Workflow
+## Payroll Integration Process
 
-```text
-PeopleSoft HR
-        ↓
-Employee Master Data Validation
-        ↓
-Payroll Population Creation
-        ↓
-TimeFiler Attendance Processing
-        ↓
-Attendance Exception Handling
-        ↓
-Hours Calculation
-        ↓
-Payroll Readiness Assessment
-        ↓
-Hourly Rate Assignment
-        ↓
-Payroll Calculation
-        ↓
-Payroll Validation
-        ↓
-PayGlobal Load File Creation
-        ↓
-Payroll Reporting Dashboard
+```mermaid
+flowchart TD
+
+A[PeopleSoft HR Employee Data]
+--> B[Employee Validation]
+
+B --> C[Payroll Population Creation]
+
+C --> D[TimeFiler Attendance Records]
+
+D --> E[Attendance Exception Handling]
+
+E --> F[Daily Hours Calculation]
+
+F --> G[Payroll Readiness Assessment]
+
+G --> H[Hourly Rate Assignment]
+
+H --> I[Payroll Calculation]
+
+I --> J[Payroll Validation]
+
+J --> K[PayGlobal Load File]
+
+K --> L[Payroll Dashboard Reporting]
 ```
-
----
-
 ## Key Activities Performed
 
 ### Data Cleansing and Validation
