@@ -7,7 +7,9 @@ Developed an end-to-end Payroll & HRIS Integration simulation project using Peop
 
 The project processed 18,810 attendance transactions across 200 employees, performed payroll validation and exception handling, generated payroll-ready outputs for PayGlobal migration, and delivered management reporting dashboards to support payroll decision-making.
 
+## Dashboard
 
+![Payroll Dashboard](Payroll_HRIS_Integration_Project/dashboards/payroll_dashboard.jpg)
 ## Project Overview
 
 This project simulates a payroll and HRIS integration process involving employee master data, attendance records, payroll validation, payroll calculation, reporting, and payroll migration activities.
