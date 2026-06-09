@@ -1,6 +1,13 @@
 
 # Payroll & HRIS Integration Project
 
+## Project Summary
+
+Developed an end-to-end Payroll & HRIS Integration simulation project using PeopleSoft HR, TimeFiler, PayGlobal and Tableau.
+
+The project processed 18,810 attendance transactions across 200 employees, performed payroll validation and exception handling, generated payroll-ready outputs for PayGlobal migration, and delivered management reporting dashboards to support payroll decision-making.
+
+
 ## Project Overview
 
 This project simulates a payroll and HRIS integration process involving employee master data, attendance records, payroll validation, payroll calculation, reporting, and payroll migration activities.
@@ -108,6 +115,14 @@ K --> L[Payroll Dashboard Reporting]
 | PayGlobal Load Records Generated   | 9,364         |
 
 ---
+## Business Outcomes
+
+* Validated employee and attendance data before payroll processing.
+* Identified 41 attendance exceptions requiring investigation.
+* Flagged 35 employees requiring payroll review prior to payment.
+* Prepared 9,364 payroll-ready records for PayGlobal migration.
+* Delivered payroll reporting dashboards to support workforce and payroll analysis.
+
 
 ## Technologies Used
 
@@ -125,18 +140,17 @@ K --> L[Payroll Dashboard Reporting]
 
 ## Key Skills Demonstrated
 
-* Payroll Data Validation
-* Payroll Systems Integration
-* Data Cleansing and Mapping
-* Payroll Migration Preparation
-* Payroll Testing and Troubleshooting
-* Payroll Readiness Assessment
-* Exception Management
-* Data Quality Analysis
-* Tableau Dashboard Development
-* Stakeholder Reporting
-* Process Documentation
-* End-to-End Payroll Process Understanding
-
+- Payroll Data Validation
+- Payroll Systems Integration
+- Data Cleansing and Mapping
+- Payroll Migration Preparation
+- Payroll Testing and Troubleshooting
+- Payroll Readiness Assessment
+- Payroll Reporting and Analytics
+- Data Quality Analysis
+- Tableau Dashboard Development
+- Stakeholder Reporting and Communication
+- Process Documentation and SOP Development
+- End-to-End Payroll Process Understanding
 ```
 ```
