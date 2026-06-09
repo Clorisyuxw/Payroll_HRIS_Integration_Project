@@ -1,0 +1,36 @@
+EmpID,Exception_Count,Exception_Types
+1042,2,"Duplicate Punch, Missing Clock Out"
+1213,1,Duplicate Punch
+1254,1,Device Failure
+1353,1,Duplicate Punch
+1378,1,Device Failure
+1427,2,Device Failure
+1624,1,Duplicate Punch
+1679,1,Missing Clock Out
+1780,1,Device Failure
+2020,1,Missing Clock Out
+2039,1,Duplicate Punch
+2086,1,Device Failure
+2104,1,Device Failure
+2220,2,"Duplicate Punch, Missing Clock Out"
+2221,1,Duplicate Punch
+2387,1,Duplicate Punch
+2397,1,Duplicate Punch
+2742,2,"Device Failure, Missing Clock Out"
+2750,1,Missing Clock Out
+2759,1,Missing Clock Out
+2760,1,Missing Clock Out
+2770,1,Missing Clock Out
+2934,1,Missing Clock Out
+2956,1,Missing Clock Out
+2990,1,Missing Clock Out
+2991,1,Device Failure
+3056,2,"Device Failure, Missing Clock Out"
+3300,1,Missing Clock Out
+3376,1,Duplicate Punch
+3648,1,Duplicate Punch
+3728,1,Missing Clock Out
+3760,2,Missing Clock Out
+3810,1,Missing Clock Out
+3976,1,Missing Clock Out
+3991,1,Missing Clock Out

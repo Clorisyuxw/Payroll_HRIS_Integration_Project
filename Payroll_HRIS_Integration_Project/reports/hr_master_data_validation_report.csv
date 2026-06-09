@@ -1,0 +1,7 @@
+Validation_Check,Issue_Count,Status
+Duplicate Employee ID,0,Pass
+Missing Business Unit,0,Pass
+Missing Job Title,0,Pass
+Missing Supervisor,0,Pass
+Missing Email,0,Pass
+Non-active Employees Included,0,Pass
