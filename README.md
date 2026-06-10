@@ -10,7 +10,7 @@ The project also demonstrates how payroll reporting and validation outputs can s
 
 ## Dashboard
 
-![Payroll Dashboard](Payroll_HRIS_Integration_Project/dashboards/payroll_dashboard.jpg)
+![Payroll Dashboard](Payroll_HRIS_Integration_Project/dashboards/payroll_dashboard.png)
 ## Project Overview
 
 This project simulates a payroll and HRIS integration process involving employee master data, attendance records, payroll validation, payroll calculation, reporting, and payroll migration activities.
