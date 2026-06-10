@@ -3,12 +3,23 @@
 
 ## Project Summary
 
-Developed an end-to-end Payroll & HRIS Integration simulation project using PeopleSoft HR, TimeFiler, PayGlobal and Tableau.
+Developed an end-to-end Payroll & HRIS Integration simulation project using PeopleSoft HR, TimeFiler, PayGlobal and Power BI.
 
 The project processed 18,810 attendance transactions across 200 employees, performed payroll validation and exception handling, generated payroll-ready outputs for PayGlobal migration, and delivered management reporting dashboards to support payroll decision-making.
 The project also demonstrates how payroll reporting and validation outputs can support payroll managers and HR stakeholders in identifying payroll risks, monitoring payroll readiness, and supporting data-driven decision-making.
 
-## Dashboard
+## Payroll Readiness Dashboard
+
+The project includes an interactive Power BI dashboard designed to monitor payroll readiness, payroll validation outcomes, workforce metrics, and payroll cost distribution.
+
+Key dashboard metrics include:
+
+- Total Employees
+- Payroll Ready Percentage
+- Employees Requiring Review
+- Payroll Status Distribution
+- Payroll Cost by PayZone
+- Payroll Calculation Status
 
 ![Payroll Dashboard](Payroll_HRIS_Integration_Project/dashboards/payroll_dashboard.png)
 ## Project Overview
@@ -39,7 +50,7 @@ Employee data originates from PeopleSoft HR, while attendance transactions are c
 | TimeFiler                 | Attendance and time tracking                |
 | Payroll Processing Engine | Payroll validation and payroll calculation  |
 | PayGlobal                 | Payroll migration target system             |
-| Tableau                   | Payroll reporting and dashboard development |
+| Power BI                  | Payroll reporting and dashboard development |
 
 ---
 
@@ -92,7 +103,7 @@ K --> L[Payroll Dashboard Reporting]
 * Processed attendance and payroll data using Python and Pandas.
 * Analysed payroll readiness outcomes and exception rates.
 * Produced payroll reporting datasets for management reporting.
-* Developed Tableau dashboards to support payroll decision-making and workforce reporting.
+* Developed interactive Power BI dashboards to support payroll decision-making and workforce reporting.
 
 
 ---
@@ -110,7 +121,27 @@ K --> L[Payroll Dashboard Reporting]
 | Total Gross Pay Calculated         | $2,641,956.74 |
 | PayGlobal Load Records Generated   | 9,364         |
 
+## Power BI Dashboard Features
+
+The dashboard was developed in Power BI to provide payroll operational visibility and management reporting.
+
+### KPI Monitoring
+- Total Employees
+- Payroll Ready %
+- Review Required %
+
+### Payroll Analytics
+- Payroll Status Distribution
+- Payroll Cost by PayZone
+- Payroll Calculation Readiness
+
+### Reporting Outcomes
+- Workforce payroll monitoring
+- Payroll exception visibility
+- Payroll migration readiness assessment
 ---
+
+
 ## Business Outcomes
 
 * Validated employee and attendance data before payroll processing.
@@ -125,7 +156,8 @@ K --> L[Payroll Dashboard Reporting]
 * Python
 * Pandas
 * NumPy
-* Tableau
+* Power BI
+* DAX (Basic)
 * CSV Data Processing
 * Data Validation
 * Payroll Reporting
@@ -144,7 +176,7 @@ K --> L[Payroll Dashboard Reporting]
 - Payroll Readiness Assessment
 - Payroll Reporting and Analytics
 - Data Quality Analysis
-- Tableau Dashboard Development
+- Power BI Dashboard Development
 - Stakeholder Reporting and Communication
 - Process Documentation
 - End-to-End Payroll Process Understanding
